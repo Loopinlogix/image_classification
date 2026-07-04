@@ -1,6 +1,6 @@
 # image_classification
 This project is my walkthrough of image classification using the Digits dataset from scikit‑learn.
-I (Crystal MacNeil) did the full analysis myself, learning step‑by‑step how Random Forest and SVM models work for classifying small 8×8 pixel handwritten digit images.
+The full analysis myself, learning step‑by‑step how Random Forest and SVM models work for classifying small 8×8 pixel handwritten digit images.
 
 I kept everything simple and beginner‑friendly so anyone can follow along, even if you're new to machine learning.
 
@@ -33,35 +33,14 @@ Bonus: Trained an SVM (RBF kernel) model and compared it to Random Forest
 
 Everything is inside the notebook so you can run it and see the results yourself.
 
-📂 Repository Layout
-Code
-image_classification/
-│
-├── README.md
-└── image_classification.ipynb
-⚙️ Requirements
-You only need a few libraries:
 
-bash
-pip install numpy matplotlib scikit-learn
+
 🚀 How to Run the Notebook
 Option 1 — Google Colab (Easiest)
 You can upload the notebook to Colab and run it right away.
 Colab already has all the libraries installed.
 
-Option 2 — Run Locally
-Clone the repo:
-
-bash
-git clone https://github.com/Loopinlogix/image_classification.git
-cd image_classification
-Start Jupyter:
-
-bash
-jupyter notebook
-Open image_classification.ipynb and run the cells.
-
-🧠 Model Results (Beginner Summary)
+🧠 Model Results 
 Random Forest
 Grid Search found the best settings:
 
