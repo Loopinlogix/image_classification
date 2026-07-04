@@ -28,9 +28,9 @@ Added an SVM model at the end to compare performance
 This was mostly a learning exercise for me, Crystal MacNeil, and I tried to keep everything clear and easy to follow.
 
 Results (In Plain English)
-Random Forest did well — around 96% accuracy.
+Random Forest did well ~ around 96% accuracy.
 
-SVM did even better — around 99% accuracy.
+SVM did even better ~ around 99% accuracy.
 
 So in this case, SVM was the stronger model.
 
