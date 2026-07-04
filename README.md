@@ -97,4 +97,4 @@ All analysis, coding, and explanations were done by Crystal MacNeil
 as part of learning machine learning and image classification.
 
 License
-MIT License — feel free to use or modify this project.
+MIT License; feel free to use or modify this project.
