@@ -62,7 +62,7 @@ How to evaluate models properly
 
 How different algorithms compare
 
-It’s not perfect, but it’s mine — and it helped me learn a lot.
+It’s not perfect, but it’s mine and it helped me learn a lot.
 
 Credit
 All analysis and work done by Crystal MacNeil.
