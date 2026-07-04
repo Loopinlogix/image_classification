@@ -1,15 +1,17 @@
 # image_classification
-This project is my walkthrough of image classification using the Digits dataset from scikit‑learn.
-The full analysis myself, learning step‑by‑step how Random Forest and SVM models work for classifying small 8×8 pixel handwritten digit images.
+Image Classification with Random Forest & SVM
+This project is my attempt at learning how image classification works using the digits dataset from scikit‑learn. The dataset is basically a bunch of tiny 8×8 pixel images of handwritten numbers. I wanted to try building a model that could look at one of these images and guess what number it is.
 
-I kept everything simple and beginner‑friendly so anyone can follow along, even if you're new to machine learning.
+I used Random Forest first, then later added an SVM model to compare the results. I followed a pretty standard machine‑learning workflow and learned a lot along the way.
 
-What I Did
-Here’s the basic flow of what I learned and implemented:
+What This Project Does
+Here’s what I worked through in the notebook:
 
 Loaded the digits dataset
 
 Normalized the pixel values
+
+Split the data into training and testing sets
 
 Trained a Random Forest model
 
@@ -17,84 +19,50 @@ Used GridSearchCV to tune the hyperparameters
 
 Evaluated the model using accuracy, precision, recall, and F1
 
-Visualized:
+Plotted confusion matrices and feature importances
 
-Confusion matrices
+Wrote a small function to predict new images
 
-Feature importances
+Added an SVM model at the end to compare performance
 
-Heatmaps
+This was mostly a learning exercise for me, Crystal MacNeil, and I tried to keep everything clear and easy to follow.
 
+Results (In Plain English)
+Random Forest did well — around 96% accuracy.
+
+SVM did even better — around 99% accuracy.
+
+So in this case, SVM was the stronger model.
+
+How to Run It
+Option 1: Google Colab
+This is the easiest way. Just open the notebook in Colab and run the cells. Colab already has the libraries installed.
+
+What You’ll See in the Notebook
 Sample digit images
-
-Wrote a function to predict new images
-
-Bonus: Trained an SVM (RBF kernel) model and compared it to Random Forest
-
-Everything is inside the notebook so you can run it and see the results yourself.
-
-
-
-How to Run the Notebook
-Option 1 — Google Colab (Easiest)
-You can upload the notebook to Colab and run it right away.
-Colab already has all the libraries installed.
-
-Model Results 
-Random Forest
-Grid Search found the best settings:
-
-Code
-max_depth: 10
-min_samples_leaf: 1
-min_samples_split: 2
-n_estimators: 100
-Performance:
-
-Metric	Score
-Accuracy	0.9611
-F1‑Score	0.9609
-
-
-SVM (Bonus)
-Performance:
-
-Metric	Score
-Accuracy	0.9917
-F1‑Score	0.9916
-
-
-SVM beat Random Forest in both accuracy and F1‑score.
-
-Visuals Included
-The notebook shows:
 
 Confusion matrices
 
 Feature importance charts
 
-Pixel heatmaps
-
-Sample digit images
-
 Predictions on new test images
 
-Predicting New Images
-I wrote a simple function:
+A comparison between Random Forest and SVM
 
-python
-predict_new_image(image, model=best_model)
-It gives you:
+I tried to make the outputs easy to understand, especially if you're new to machine learning.
 
-The predicted digit
+Why I Made This
+I’m learning machine learning step‑by‑step, and this project helped me understand:
 
-The probability scores
+How models handle image data
 
-A confidence value
+How hyperparameter tuning works
+
+How to evaluate models properly
+
+How different algorithms compare
+
+It’s not perfect, but it’s mine — and it helped me learn a lot.
 
 Credit
-All analysis, coding, and explanations were done by Crystal MacNeil  
-as part of learning machine learning and image classification.
-
-License
-MIT License; feel free to use or modify this project.
+All analysis and work done by Crystal MacNeil.
