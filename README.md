@@ -4,7 +4,7 @@ The full analysis myself, learning step‑by‑step how Random Forest and SVM mo
 
 I kept everything simple and beginner‑friendly so anyone can follow along, even if you're new to machine learning.
 
-📘 What I Did
+What I Did
 Here’s the basic flow of what I learned and implemented:
 
 Loaded the digits dataset
@@ -35,12 +35,12 @@ Everything is inside the notebook so you can run it and see the results yourself
 
 
 
-🚀 How to Run the Notebook
+How to Run the Notebook
 Option 1 — Google Colab (Easiest)
 You can upload the notebook to Colab and run it right away.
 Colab already has all the libraries installed.
 
-🧠 Model Results 
+Model Results 
 Random Forest
 Grid Search found the best settings:
 
@@ -66,7 +66,7 @@ F1‑Score	0.9916
 
 SVM beat Random Forest in both accuracy and F1‑score.
 
-📊 Visuals Included
+Visuals Included
 The notebook shows:
 
 Confusion matrices
@@ -79,7 +79,7 @@ Sample digit images
 
 Predictions on new test images
 
-🔮 Predicting New Images
+Predicting New Images
 I wrote a simple function:
 
 python
@@ -92,9 +92,9 @@ The probability scores
 
 A confidence value
 
-📝 Credit
+Credit
 All analysis, coding, and explanations were done by Crystal MacNeil  
 as part of learning machine learning and image classification.
 
-📜 License
+License
 MIT License — feel free to use or modify this project.
